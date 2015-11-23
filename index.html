@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Chiffrement</title>
-  <link rel="stylesheet" href="style.css">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <title>Chiffrement</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
 
-  <h1>Entrez votre message a chiffrer</h1>
-  <input class="message" type="text" name="name" value="" placeholder="Tapez votre texte">
-  <!-- <p class="valid">Merci ! Notre équipe d'agents secrets va décrypter votre message !</p> -->
-  <p class="valid"></p>
+    <div class="container">
+        <h1>Entrez votre message a chiffrer</h1>
+        <input class="message" type="text" name="name" value="" placeholder="Tapez votre texte">
+        <input class="cle" type="text" name="name" value="" placeholder="Clé">
+        <p class="error animated infinite pulse">Merci de rentrer un chiffre entre 0 et 9 !</p>
+    </div>
 
-  <script src="app.js"></script>
+    <p class="valid animated tada"></p>
+
+    <script src="app.js"></script>
 </body>
+
 </html>
