@@ -6,6 +6,7 @@ document.body.onkeyup = function(e){
         var message = document.querySelector('.message');
         console.log(message.value);
         valid.style.display = 'block';
+        valid.innerText = '';
 
         // Cryptage
 
@@ -20,6 +21,7 @@ document.body.onkeyup = function(e){
             console.log('Encodage... ');
             var titi = String.fromCharCode(toto);
             console.log(titi);
+            valid.innerText += titi;
         }
 
     }
