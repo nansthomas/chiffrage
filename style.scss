@@ -1,2 +1,36 @@
 $primary-color: #fefefe;
 $secondary-color: #171717;
+$good-color: #37e057;
+$font: 'Open Sans', sans-serif;
+body {
+    background: $secondary-color;
+}
+h1 {
+    font-family: $font;
+    font-weight: 300;
+    text-align: center;
+    color: $primary-color;
+    margin-top: 15rem;
+}
+.message {
+    top: 1rem;
+    position: relative;
+    margin: auto;
+    display: block;
+    width: 35rem;
+    height: 2.5rem;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 12px;
+}
+.valid {
+    font-family: $font;
+    font-weight: 300;
+    text-align: center;
+    color: $good-color;
+    font-size: 0.8rem;
+    margin-top: 3rem;
+    display: none;
+}
